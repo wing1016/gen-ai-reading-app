@@ -3,6 +3,10 @@
         "context7": {
             "command": "/home/codespace/nvm/current/bin/npx",
             "args": ["-y", "@upstash/context7-mcp@latest"]
+        },
+        "playwright": {
+            "command": "npx",
+            "args": ["@playwright/mcp@latest", "--browser", "chromium"]
         }
     }
 }
