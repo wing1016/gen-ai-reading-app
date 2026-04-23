@@ -13,7 +13,7 @@ DROP TABLE IF EXISTS documents CASCADE;
 DROP TABLE IF EXISTS users CASCADE;
 
 -- 3. Drop functions
-DROP FUNCTION IF EXISTS match_embeddings(vector(1536), float, int, bigint) CASCADE;
+DROP FUNCTION IF EXISTS match_embeddings(vector(4096), float, int, bigint) CASCADE;
 
 -- 4. Create users table with UUID
 CREATE TABLE users (
@@ -36,7 +36,7 @@ CREATE TABLE embeddings (
   id BIGSERIAL PRIMARY KEY,
   doc_id BIGINT NOT NULL REFERENCES documents(id) ON DELETE CASCADE,
   content TEXT NOT NULL,
-  embedding vector(1536)
+  embedding vector(4096)
 );
 
 -- 7. Create security_logs table with UUID user_id
@@ -50,7 +50,7 @@ CREATE TABLE security_logs (
 
 -- 8. Create vector similarity search function
 CREATE OR REPLACE FUNCTION match_embeddings (
-  query_embedding vector(1536),
+  query_embedding vector(4096),
   match_threshold float,
   match_count int,
   filter_doc_id bigint

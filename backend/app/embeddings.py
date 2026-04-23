@@ -10,7 +10,8 @@ def get_embedding(client: OpenAI, text: str) -> List[float]:
     """Calls the embedding model via OpenRouter/OpenAI."""
     response = client.embeddings.create(
         input=[text.replace("\n", " ")],
-        model="openai/text-embedding-3-small" 
+        # model="openai/text-embedding-3-small" 
+        model="qwen/qwen3-embedding-8b"
     )
     return response.data[0].embedding
 
