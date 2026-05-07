@@ -1,0 +1,84 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "FIH" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: FIH
+      - navigation [ref=e8]:
+        - link "Home" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "About Us" [ref=e10] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=e11] [cursor=pointer]:
+          - /url: /services
+        - link "Portfolio" [ref=e12] [cursor=pointer]:
+          - /url: /portfolio
+        - link "Blog" [ref=e13] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=e14] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e15]:
+    - generic [ref=e293]:
+      - generic [ref=e295]:
+        - heading "Get in Touch – Let’s Bring Your Vision to Life" [level=1] [ref=e296]
+        - paragraph [ref=e297]: We’re excited to hear your ideas and support your entrepreneurship journey!
+      - generic [ref=e298]:
+        - generic [ref=e299]:
+          - heading "Send us a message" [level=2] [ref=e300]
+          - generic [ref=e301]:
+            - generic [ref=e302]:
+              - generic [ref=e303]:
+                - text: Name
+                - textbox "John Doe" [ref=e304]
+              - generic [ref=e305]:
+                - text: Email
+                - textbox "john@example.com" [ref=e306]
+            - generic [ref=e307]:
+              - generic [ref=e308]:
+                - text: Phone
+                - textbox "(852) 1234 5678" [ref=e309]
+              - generic [ref=e310]:
+                - text: Project Type
+                - combobox [ref=e311]:
+                  - option "AI Solutions" [selected]
+                  - option "Automation"
+                  - option "Digital Campaigns"
+                  - option "System Development"
+            - generic [ref=e312]:
+              - text: Message
+              - textbox "Tell us about your project..." [ref=e313]
+            - button "Send Message" [active] [ref=e314] [cursor=pointer]:
+              - text: Send Message
+              - img [ref=e315]
+        - generic [ref=e318]:
+          - generic [ref=e319]:
+            - heading "Contact Details" [level=3] [ref=e320]
+            - generic [ref=e321]:
+              - generic [ref=e322]:
+                - img [ref=e324]
+                - generic [ref=e327]:
+                  - paragraph [ref=e328]: Email
+                  - link "info@fihdigital.com" [ref=e329] [cursor=pointer]:
+                    - /url: mailto:info@fihdigital.com
+              - generic [ref=e330]:
+                - img [ref=e332]
+                - generic [ref=e334]:
+                  - paragraph [ref=e335]: Phone
+                  - link "(852) 5665 9858" [ref=e336] [cursor=pointer]:
+                    - /url: tel:+85256659858
+              - generic [ref=e337]:
+                - img [ref=e339]
+                - generic [ref=e342]:
+                  - paragraph [ref=e343]: Location
+                  - paragraph [ref=e344]: Hong Kong, S.A.R.
+          - generic [ref=e348]:
+            - img [ref=e349]
+            - text: View on Map
+  - contentinfo [ref=e129]:
+    - generic [ref=e131]:
+      - generic [ref=e132]:
+        - link "Privacy Policy" [ref=e133] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms of Service" [ref=e134] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e135]: ©Copyright 2026, FIH Digital Limited. All rights reserved.

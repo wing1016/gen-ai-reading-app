@@ -1,0 +1,37 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - img [ref=e8]
+      - generic [ref=e11]: Agentic Reader
+    - generic [ref=e12]:
+      - heading "Turn reading into a dialogue." [level=1] [ref=e13]
+      - paragraph [ref=e14]: Upload documents, provide links, and let our intelligent agents extract, summarize, and answer questions. A modern workspace for profound understanding.
+    - generic [ref=e15]:
+      - generic [ref=e16]: Analysis
+      - generic [ref=e18]: Synthesis
+      - generic [ref=e20]: Insight
+  - generic [ref=e22]:
+    - generic [ref=e23]:
+      - heading "Welcome back" [level=2] [ref=e24]
+      - paragraph [ref=e25]: Enter your credentials to access your workspace.
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - text: Email address
+        - generic [ref=e28]:
+          - generic:
+            - img
+          - textbox "name@email.com" [ref=e29]
+      - generic [ref=e30]:
+        - text: Password
+        - generic [ref=e31]:
+          - generic:
+            - img
+          - textbox "••••••••" [ref=e32]
+      - button "Sign In" [disabled] [ref=e33]:
+        - text: Sign In
+        - img [ref=e34]
+    - generic [ref=e37]: Or continue with
+    - button "Google" [ref=e39]:
+      - img [ref=e40]
+      - text: Google
+    - button "Don't have an account? Create one" [ref=e46]

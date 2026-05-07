@@ -1,0 +1,93 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "FIH" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: FIH
+      - navigation [ref=e8]:
+        - link "Home" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "About Us" [active] [ref=e10] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=e11] [cursor=pointer]:
+          - /url: /services
+        - link "Portfolio" [ref=e12] [cursor=pointer]:
+          - /url: /portfolio
+        - link "Blog" [ref=e13] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=e14] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e15]:
+    - generic [ref=e136]:
+      - generic [ref=e138]:
+        - heading "Pioneers in AI and Digital Innovation" [level=1] [ref=e139]
+        - paragraph [ref=e140]: Founded as digital strivers, FIH Digital Limited has evolved to lead in AI, automation, and human-centric solutions.
+      - generic [ref=e141]:
+        - generic [ref=e142]:
+          - heading "Our Story" [level=2] [ref=e143]
+          - generic [ref=e144]:
+            - paragraph [ref=e145]: Our journey began with a focus on perceiving digital change and delivering innovative capabilities. Today, we specialize in AI and automation projects while maintaining expertise in campaigns and system development.
+            - paragraph [ref=e146]: "We’ve supported numerous startups and SMEs through our structured MVP process: from stakeholder workshops to deployment and continuous improvement."
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - heading "Our Vision" [level=3] [ref=e149]:
+              - img [ref=e150]
+              - text: Our Vision
+            - paragraph [ref=e156]: To make the future here today by integrating AI and automation into everyday digital experiences, creating opportunities for human-centric engagement and investment.
+          - generic [ref=e157]:
+            - heading "Our Mission" [level=3] [ref=e158]:
+              - img [ref=e159]
+              - text: Our Mission
+            - paragraph [ref=e164]: We are passionate about providing tailored services to startups and SMEs, helping them navigate technical challenges, identify user personas, and build scalable solutions that drive entrepreneurial success.
+      - generic [ref=e166]:
+        - generic [ref=e167]:
+          - heading "Our Team" [level=2] [ref=e168]
+          - paragraph [ref=e169]: Our team of experts brings diverse skills in AI, automation, software development, and digital marketing.
+        - generic [ref=e170]:
+          - generic [ref=e171]:
+            - img "Bocys Lam" [ref=e173]
+            - heading "Bocys Lam" [level=3] [ref=e174]
+            - paragraph [ref=e175]: AI Specialist
+            - paragraph [ref=e176]: Leads machine learning projects.
+          - generic [ref=e177]:
+            - img "Jane Smith" [ref=e179]
+            - heading "Jane Smith" [level=3] [ref=e180]
+            - paragraph [ref=e181]: Automation Engineer
+            - paragraph [ref=e182]: Focuses on RPA and workflow optimization.
+          - generic [ref=e183]:
+            - img "Michael Lee" [ref=e185]
+            - heading "Michael Lee" [level=3] [ref=e186]
+            - paragraph [ref=e187]: Campaign Strategist
+            - paragraph [ref=e188]: Drives creative digital marketing.
+          - generic [ref=e189]:
+            - img "Sarah Chen" [ref=e191]
+            - heading "Sarah Chen" [level=3] [ref=e192]
+            - paragraph [ref=e193]: System Developer
+            - paragraph [ref=e194]: Oversees MVP builds and testing.
+      - generic [ref=e195]:
+        - heading "Core Values" [level=2] [ref=e196]
+        - generic [ref=e197]:
+          - generic [ref=e198]:
+            - img [ref=e199]
+            - heading "Innovation as Opportunity" [level=3] [ref=e205]
+            - paragraph [ref=e206]: Embracing change with cutting-edge tech.
+          - generic [ref=e207]:
+            - img [ref=e208]
+            - heading "Human-Centric Design" [level=3] [ref=e210]
+            - paragraph [ref=e211]: Solutions that prioritize user needs.
+          - generic [ref=e212]:
+            - img [ref=e213]
+            - heading "Partnership for Success" [level=3] [ref=e218]
+            - paragraph [ref=e219]: Committed to startups and SMEs' growth.
+        - link "Ready to collaborate? Contact us today" [ref=e220] [cursor=pointer]:
+          - /url: /contact
+          - text: Ready to collaborate? Contact us today
+          - img [ref=e221]
+  - contentinfo [ref=e129]:
+    - generic [ref=e131]:
+      - generic [ref=e132]:
+        - link "Privacy Policy" [ref=e133] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms of Service" [ref=e134] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e135]: ©Copyright 2026, FIH Digital Limited. All rights reserved.

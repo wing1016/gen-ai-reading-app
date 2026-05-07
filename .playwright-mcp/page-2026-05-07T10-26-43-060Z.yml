@@ -1,0 +1,108 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "FIH" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: FIH
+      - navigation [ref=e8]:
+        - link "Home" [active] [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "About Us" [ref=e10] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=e11] [cursor=pointer]:
+          - /url: /services
+        - link "Portfolio" [ref=e12] [cursor=pointer]:
+          - /url: /portfolio
+        - link "Blog" [ref=e13] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=e14] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e15]:
+    - generic [ref=e480]:
+      - generic [ref=e481]:
+        - generic:
+          - generic: FIH
+        - generic [ref=e482]:
+          - heading "Future Is Here" [level=1] [ref=e483]:
+            - text: Future Is
+            - generic [ref=e484]: Here
+          - paragraph [ref=e486]: Empowering Digital Innovation with AI and Automation
+          - generic [ref=e487]:
+            - paragraph [ref=e489]:
+              - strong [ref=e490]: FIH Digital Limited
+              - text: is a group of digital strivers dedicated to acutely perceiving change in the digital world.
+            - paragraph [ref=e491]: We treat innovation as an opportunity to deliver new capabilities, providing human-centric solutions that help customers engage and invest in digital. Specializing in AI-driven projects and automation from startups and SMEs, we blend cutting-edge tech with proven system development and campaigns to fuel your success.
+      - generic [ref=e496]:
+        - heading "Vision Statement" [level=2] [ref=e497]
+        - paragraph [ref=e498]: We are passionate about partnering with startups and SMEs to become an integral part of their entrepreneurship stories. By integrating AI agent and automation, we create smarter, more efficient solutions that drive growth and engagement in an ever-evolving digital landscape.
+      - generic [ref=e500]:
+        - heading "Featured Services" [level=2] [ref=e502]
+        - generic [ref=e503]:
+          - generic [ref=e504]:
+            - img [ref=e506]
+            - heading "AI Solutions" [level=3] [ref=e514]
+            - paragraph [ref=e515]: Harness machine learning and predictive analytics to transform data into actionable insights.
+          - generic [ref=e516]:
+            - img [ref=e518]
+            - heading "Automation" [level=3] [ref=e521]
+            - paragraph [ref=e522]: Streamline operations with robotic process automation (RPA) and workflow tools for efficiency.
+          - generic [ref=e523]:
+            - img [ref=e525]
+            - heading "Digital Campaigns" [level=3] [ref=e528]
+            - paragraph [ref=e529]: Craft targeted marketing strategies to boost visibility and customer interaction.
+          - generic [ref=e530]:
+            - img [ref=e532]
+            - heading "System Development" [level=3] [ref=e534]
+            - paragraph [ref=e535]: Build robust MVPs and custom systems from ideation to deployment.
+        - link "Discover Our Services" [ref=e537] [cursor=pointer]:
+          - /url: /services
+          - text: Discover Our Services
+          - img [ref=e538]
+      - generic [ref=e543]:
+        - heading "Portfolio Highlights" [level=2] [ref=e544]
+        - generic [ref=e545]:
+          - generic [ref=e546] [cursor=pointer]:
+            - img "Predictive Analytics Tool" [ref=e548]
+            - generic [ref=e551]:
+              - heading "Predictive Analytics Tool" [level=3] [ref=e552]
+              - paragraph [ref=e553]: Enhanced decision-making for a retail startup, increasing efficiency by 35%.
+          - generic [ref=e554] [cursor=pointer]:
+            - img "Automation Workflow" [ref=e556]
+            - generic [ref=e559]:
+              - heading "Automation Workflow" [level=3] [ref=e560]
+              - paragraph [ref=e561]: Streamline operations with robotic process automation (RPA) and workflow tools.
+          - generic [ref=e562] [cursor=pointer]:
+            - img "Digital Campaigns" [ref=e564]
+            - generic [ref=e567]:
+              - heading "Digital Campaigns" [level=3] [ref=e568]
+              - paragraph [ref=e569]: Craft targeted marketing strategies to boost visibility and customer interaction.
+          - generic [ref=e570] [cursor=pointer]:
+            - img "System Development" [ref=e572]
+            - generic [ref=e575]:
+              - heading "System Development" [level=3] [ref=e576]
+              - paragraph [ref=e577]: Build robust MVPs and custom systems from ideation to deployment.
+        - link "View Full Portfolio" [ref=e579] [cursor=pointer]:
+          - /url: /portfolio
+          - text: View Full Portfolio
+          - img [ref=e580]
+      - generic [ref=e584]:
+        - heading "Got an idea ready to change the digital world?" [level=2] [ref=e585]
+        - paragraph [ref=e586]: Get in touch – we're here to help.
+        - generic [ref=e587]:
+          - generic [ref=e588]:
+            - text: call us at
+            - link "(852) 5665 9858" [ref=e589] [cursor=pointer]:
+              - /url: tel:+85256659858
+          - generic [ref=e590]: "|"
+          - generic [ref=e591]:
+            - text: "Email:"
+            - link "info@fihdigital.com" [ref=e592] [cursor=pointer]:
+              - /url: mailto:info@fihdigital.com
+  - contentinfo [ref=e129]:
+    - generic [ref=e131]:
+      - generic [ref=e132]:
+        - link "Privacy Policy" [ref=e133] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms of Service" [ref=e134] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e135]: ©Copyright 2026, FIH Digital Limited. All rights reserved.

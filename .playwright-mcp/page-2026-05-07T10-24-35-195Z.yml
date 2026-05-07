@@ -1,0 +1,82 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "FIH" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: FIH
+      - navigation [ref=e8]:
+        - link "Home" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "About Us" [ref=e10] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=e11] [cursor=pointer]:
+          - /url: /services
+        - link "Portfolio" [active] [ref=e12] [cursor=pointer]:
+          - /url: /portfolio
+        - link "Blog" [ref=e13] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=e14] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e15]:
+    - generic [ref=e426]:
+      - generic [ref=e428]:
+        - heading "Showcasing Digital Excellence" [level=1] [ref=e429]
+        - paragraph [ref=e430]: Explore our work helping startups and SMEs thrive through innovative projects.
+        - generic [ref=e431]:
+          - button "All" [ref=e432] [cursor=pointer]
+          - button "AI" [ref=e433] [cursor=pointer]
+          - button "Automation" [ref=e434] [cursor=pointer]
+          - button "Campaigns" [ref=e435] [cursor=pointer]
+          - button "System Development" [ref=e436] [cursor=pointer]
+      - generic [ref=e437]:
+        - generic [ref=e438]:
+          - generic [ref=e439] [cursor=pointer]:
+            - generic [ref=e440]:
+              - img "Predictive Inventory System" [ref=e441]
+              - generic [ref=e443]: AI
+            - heading "Predictive Inventory System" [level=3] [ref=e444]
+            - paragraph [ref=e445]: Developed an AI model for a logistics SME, forecasting demand with 90% accuracy, reducing waste.
+            - generic [ref=e446]:
+              - text: "Tech:"
+              - generic [ref=e447]: Python, Machine Learning
+          - generic [ref=e448] [cursor=pointer]:
+            - generic [ref=e449]:
+              - img "HR Process Automation" [ref=e450]
+              - generic [ref=e452]: Automation
+            - heading "HR Process Automation" [level=3] [ref=e453]
+            - paragraph [ref=e454]: Automated onboarding and payroll for a startup, saving 20 hours weekly.
+            - generic [ref=e455]:
+              - text: "Tech:"
+              - generic [ref=e456]: RPA Tools
+          - generic [ref=e457] [cursor=pointer]:
+            - generic [ref=e458]:
+              - img "Brand Launch Campaign" [ref=e459]
+              - generic [ref=e461]: Campaigns
+            - heading "Brand Launch Campaign" [level=3] [ref=e462]
+            - paragraph [ref=e463]: Ran a multi-channel campaign for a new app, achieving 100K impressions and 20% conversion.
+            - generic [ref=e464]:
+              - text: "Tech:"
+              - generic [ref=e465]: SEO, Social Media
+          - generic [ref=e466] [cursor=pointer]:
+            - generic [ref=e467]:
+              - img "Custom CRM MVP" [ref=e468]
+              - generic [ref=e470]: System Development
+            - heading "Custom CRM MVP" [level=3] [ref=e471]
+            - paragraph [ref=e472]: Built and deployed a scalable CRM from wireframes to beta, incorporating user feedback for iterations.
+            - generic [ref=e473]:
+              - text: "Tech:"
+              - generic [ref=e474]: React, Node.js
+        - generic [ref=e475]:
+          - heading "Inspired? Let’s create your success story." [level=2] [ref=e476]
+          - link "Contact Us Today" [ref=e477] [cursor=pointer]:
+            - /url: /contact
+            - text: Contact Us Today
+            - img [ref=e478]
+  - contentinfo [ref=e129]:
+    - generic [ref=e131]:
+      - generic [ref=e132]:
+        - link "Privacy Policy" [ref=e133] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms of Service" [ref=e134] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e135]: ©Copyright 2026, FIH Digital Limited. All rights reserved.

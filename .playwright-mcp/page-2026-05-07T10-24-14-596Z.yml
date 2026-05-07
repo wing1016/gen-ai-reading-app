@@ -1,0 +1,98 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "FIH" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: FIH
+      - navigation [ref=e8]:
+        - link "Home" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "About Us" [ref=e10] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=e11] [cursor=pointer]:
+          - /url: /services
+        - link "Portfolio" [ref=e12] [cursor=pointer]:
+          - /url: /portfolio
+        - link "Blog" [active] [ref=e13] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=e14] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e15]:
+    - generic [ref=e352]:
+      - generic [ref=e354]:
+        - heading "Insights from FIH Digital" [level=1] [ref=e355]
+        - paragraph [ref=e356]: Trends in AI, Automation, and digital innovation.
+      - generic [ref=e357]:
+        - generic [ref=e359]:
+          - generic [ref=e360] [cursor=pointer]:
+            - 'img "How AI is Revolutionizing Startups: Case Studies from FIH" [ref=e362]'
+            - generic [ref=e363]:
+              - generic [ref=e364]: AI
+              - generic [ref=e365]: "|"
+              - generic [ref=e366]:
+                - img [ref=e367]
+                - text: March 15, 2026
+            - 'heading "How AI is Revolutionizing Startups: Case Studies from FIH" [level=3] [ref=e369]'
+          - generic [ref=e370] [cursor=pointer]:
+            - 'img "Automation Essentials for SMEs: Streamlining Operations" [ref=e372]'
+            - generic [ref=e373]:
+              - generic [ref=e374]: Automation
+              - generic [ref=e375]: "|"
+              - generic [ref=e376]:
+                - img [ref=e377]
+                - text: March 10, 2026
+            - 'heading "Automation Essentials for SMEs: Streamlining Operations" [level=3] [ref=e379]'
+          - generic [ref=e380] [cursor=pointer]:
+            - img "Building Effective Digital Campaigns in 2026" [ref=e382]
+            - generic [ref=e383]:
+              - generic [ref=e384]: Campaigns
+              - generic [ref=e385]: "|"
+              - generic [ref=e386]:
+                - img [ref=e387]
+                - text: March 5, 2026
+            - heading "Building Effective Digital Campaigns in 2026" [level=3] [ref=e389]
+          - generic [ref=e390] [cursor=pointer]:
+            - 'img "The MVP Process: From Idea to Launch" [ref=e392]'
+            - generic [ref=e393]:
+              - generic [ref=e394]: Development
+              - generic [ref=e395]: "|"
+              - generic [ref=e396]:
+                - img [ref=e397]
+                - text: February 28, 2026
+            - 'heading "The MVP Process: From Idea to Launch" [level=3] [ref=e399]'
+        - complementary [ref=e400]:
+          - generic [ref=e401]:
+            - generic [ref=e402]:
+              - heading "Search" [level=4] [ref=e403]
+              - generic [ref=e404]:
+                - textbox "Search insights..." [ref=e405]
+                - img [ref=e406]
+            - generic [ref=e409]:
+              - heading "Categories" [level=4] [ref=e410]
+              - list [ref=e411]:
+                - listitem [ref=e412] [cursor=pointer]:
+                  - text: AI
+                  - generic [ref=e413]: (12)
+                - listitem [ref=e414] [cursor=pointer]:
+                  - text: Automation
+                  - generic [ref=e415]: (8)
+                - listitem [ref=e416] [cursor=pointer]:
+                  - text: Campaigns
+                  - generic [ref=e417]: (15)
+                - listitem [ref=e418] [cursor=pointer]:
+                  - text: Development
+                  - generic [ref=e419]: (7)
+            - generic [ref=e420]:
+              - heading "Stay Updated" [level=4] [ref=e421]
+              - paragraph [ref=e422]: Subscribe to get the latest insights delivered right to your inbox.
+              - generic [ref=e423]:
+                - textbox "Your email address" [ref=e424]
+                - button "Subscribe" [ref=e425] [cursor=pointer]
+  - contentinfo [ref=e129]:
+    - generic [ref=e131]:
+      - generic [ref=e132]:
+        - link "Privacy Policy" [ref=e133] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms of Service" [ref=e134] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e135]: ©Copyright 2026, FIH Digital Limited. All rights reserved.

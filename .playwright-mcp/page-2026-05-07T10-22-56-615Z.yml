@@ -1,0 +1,81 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "FIH" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: FIH
+      - navigation [ref=e8]:
+        - link "Home" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "About Us" [ref=e10] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [active] [ref=e11] [cursor=pointer]:
+          - /url: /services
+        - link "Portfolio" [ref=e12] [cursor=pointer]:
+          - /url: /portfolio
+        - link "Blog" [ref=e13] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=e14] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e15]:
+    - generic [ref=e223]:
+      - generic [ref=e225]:
+        - heading "Our Services – AI, Automation, and Beyond" [level=1] [ref=e226]
+        - paragraph [ref=e227]: From AI innovations to reliable system development, we deliver human-centric solutions tailored for startups and SMEs.
+      - generic [ref=e228]:
+        - generic [ref=e229]:
+          - heading "A Proven Process" [level=2] [ref=e230]
+          - paragraph [ref=e231]: "Our services follow a structured approach: Workshops to understand objectives, identifying accelerators and challenges, creating wireframes and prototypes, thorough testing, and deployment with ongoing support."
+        - generic [ref=e232]:
+          - generic [ref=e233]:
+            - img [ref=e235]
+            - generic [ref=e243]:
+              - heading "AI Solutions" [level=3] [ref=e244]
+              - paragraph [ref=e245]: Leverage AI for predictive analytics, chatbots, and machine learning models. We help businesses turn data into insights, enhancing decision-making and customer experiences.
+          - generic [ref=e246]:
+            - img [ref=e248]
+            - generic [ref=e251]:
+              - heading "Automation" [level=3] [ref=e252]
+              - paragraph [ref=e253]: Implement RPA and custom automation to streamline processes, reduce costs, and boost efficiency. Ideal for repetitive tasks in operations and workflows.
+          - generic [ref=e254]:
+            - img [ref=e256]
+            - generic [ref=e259]:
+              - heading "Digital Campaigns" [level=3] [ref=e260]
+              - paragraph [ref=e261]: Design and execute targeted campaigns using SEO, social media, and content strategies to drive engagement and growth.
+          - generic [ref=e262]:
+            - img [ref=e264]
+            - generic [ref=e266]:
+              - heading "System Development" [level=3] [ref=e267]
+              - paragraph [ref=e268]: "Our MVP expertise includes full-cycle development: from use case documentation to beta launches and iterations based on market feedback."
+      - generic [ref=e270]:
+        - generic [ref=e271]:
+          - heading "How We Work" [level=2] [ref=e272]
+          - paragraph [ref=e273]: Transparency and collaboration drive our development cycle from day one to post-launch.
+          - link "Request a consultation" [ref=e274] [cursor=pointer]:
+            - /url: /contact
+            - text: Request a consultation
+            - img [ref=e275]
+        - generic [ref=e277]:
+          - generic [ref=e278]:
+            - generic [ref=e279]: "01"
+            - paragraph [ref=e280]: Workshop with stakeholders.
+          - generic [ref=e281]:
+            - generic [ref=e282]: "02"
+            - paragraph [ref=e283]: Evaluate technologies and user flows.
+          - generic [ref=e284]:
+            - generic [ref=e285]: "03"
+            - paragraph [ref=e286]: Prepare prototypes and plans.
+          - generic [ref=e287]:
+            - generic [ref=e288]: "04"
+            - paragraph [ref=e289]: Develop, test, and deploy.
+          - generic [ref=e290]:
+            - generic [ref=e291]: "05"
+            - paragraph [ref=e292]: Gather feedback for improvements.
+  - contentinfo [ref=e129]:
+    - generic [ref=e131]:
+      - generic [ref=e132]:
+        - link "Privacy Policy" [ref=e133] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms of Service" [ref=e134] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e135]: ©Copyright 2026, FIH Digital Limited. All rights reserved.
