@@ -12,7 +12,8 @@
 2. New project
 3. Copy from Settings → API:
    - `SUPABASE_URL`
-   - `SUPABASE_KEY` (anon key)
+   - `VITE_SUPABASE_ANON_KEY` (publishable key for frontend)
+   - `SUPABASE_SECRET_KEY` (secret key for gateway/backend)
 
 ### OpenRouter  
 1. Create account: https://openrouter.ai
@@ -24,7 +25,8 @@
 ```bash
 # Edit .env in root directory
 SUPABASE_URL=https://your-project.supabase.co
-SUPABASE_KEY=your-anon-key
+SUPABASE_SECRET_KEY=your-secret-key
+VITE_SUPABASE_ANON_KEY=your-publishable-key
 OPENROUTER_API_KEY=your-key
 ```
 

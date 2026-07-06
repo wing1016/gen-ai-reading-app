@@ -24,7 +24,8 @@ gen-ai-reading-app/
 3. Wait for provisioning (~2 minutes)
 4. Copy your credentials from **Settings → API**:
    - `SUPABASE_URL`: Project URL
-   - `SUPABASE_KEY`: `anon` public key
+   - `VITE_SUPABASE_ANON_KEY`: `publishable` public key for frontend
+   - `SUPABASE_SECRET_KEY` (or `SUPABASE_SERVICE_ROLE_KEY`): server key for gateway/backend
 
 ### 2.2 OpenRouter Setup
 
