@@ -4,7 +4,7 @@ A sophisticated multi-service application for semantic document search and AI-po
 
 ## Architecture
 
-```
+```-
 ┌─────────────┐
 │   Browser   │
 │   (React)   │
