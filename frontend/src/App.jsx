@@ -99,19 +99,46 @@ const AppContent = () => {
   };
 
   const handleUrlScrape = async () => {
-    if(!urlInput) return;
+    if (!urlInput.trim()) return;
+    if (!urlInput.startsWith('http://') && !urlInput.startsWith('https://')) {
+      setUploadStatus('URL must start with http:// or https://');
+      return;
+    }
+
     setScraping(true);
-    setUploadStatus(`Dispatching agent to scrape ${urlInput}...`);
+    setUploadStatus(`Scraping ${urlInput}...`);
     setError('');
-    
-    // Simulate API call for URL ingestion
-    setTimeout(() => {
-      setScraping(false);
+
+    try {
+      const headers = await getAuthHeaders();
+      headers['Content-Type'] = 'application/json';
+
+      const res = await fetch(`${GATEWAY_URL}/documents/scrape`, {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({ url: urlInput.trim() })
+      });
+
+      if (res.status === 401) {
+        setUploadStatus('Session expired. Please sign in again.');
+        return;
+      }
+
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({ detail: `HTTP ${res.status}` }));
+        throw new Error(err.detail || err.error || `HTTP ${res.status}`);
+      }
+
+      const data = await res.json();
+      await fetchDocs();
       setUrlInput('');
-      setUploadStatus('✓ Website scraped and added to library!');
+      setUploadStatus(`✓ Scraped and saved: ${data.title}`);
       setTimeout(() => setUploadStatus(''), 3000);
-      // fetchDocs() would ideally run here if we actually persisted it
-    }, 2500);
+    } catch (err) {
+      setUploadStatus(`✗ Scrape failed: ${err.message}`);
+    } finally {
+      setScraping(false);
+    }
   };
 
   const handleUpload = async (event) => {
