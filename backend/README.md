@@ -19,7 +19,9 @@ cp .env.example .env
 
 Update with your actual values:
 - `SUPABASE_URL`: Your Supabase project URL
-- `SUPABASE_KEY`: Your Supabase API key
+- `SUPABASE_SECRET_KEY`: Preferred server key
+- `SUPABASE_SERVICE_ROLE_KEY`: Optional alternate server key name
+- `SUPABASE_KEY`: Legacy fallback name (still supported)
 - `OPENROUTER_API_KEY`: Your OpenRouter API key
 
 ## Development

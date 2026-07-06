@@ -96,7 +96,8 @@ Edit `.env` with your credentials:
 ```bash
 # Supabase (get from https://supabase.com)
 SUPABASE_URL=https://your-project.supabase.co
-SUPABASE_KEY=your-anon-key
+SUPABASE_SECRET_KEY=your-secret-key
+VITE_SUPABASE_ANON_KEY=your-publishable-key
 
 # OpenRouter (get from https://openrouter.ai)
 OPENROUTER_API_KEY=your-api-key

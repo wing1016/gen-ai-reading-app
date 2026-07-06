@@ -2,10 +2,22 @@
 import { createClient } from '@supabase/supabase-js';
 import logger from './logger.js';
 
+const supabaseKey =
+  process.env.SUPABASE_SECRET_KEY ||
+  process.env.SUPABASE_SERVICE_ROLE_KEY ||
+  process.env.SUPABASE_KEY;
+
 const supabase = createClient(
   process.env.SUPABASE_URL,
-  process.env.SUPABASE_KEY
+  supabaseKey
 );
+
+if (!process.env.SUPABASE_URL || !supabaseKey) {
+  logger.error(
+    'Auth',
+    'Missing Supabase config. Set SUPABASE_URL and one of SUPABASE_SECRET_KEY, SUPABASE_SERVICE_ROLE_KEY, or SUPABASE_KEY.'
+  );
+}
 
 export const authMiddleware = async (req, res, next) => {
   try {
