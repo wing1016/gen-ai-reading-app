@@ -3,7 +3,7 @@ FROM node:20-slim AS build
 WORKDIR /app
 
 # Install dependencies
-COPY frontend/package*.json ./
+COPY package*.json ./
 RUN npm ci
 
 # Declare build-time env vars (Vite bakes these in at build time)
@@ -16,13 +16,13 @@ ENV VITE_SUPABASE_ANON_KEY=$VITE_SUPABASE_ANON_KEY
 ENV VITE_GATEWAY_URL=$VITE_GATEWAY_URL
 
 # Copy source code
-COPY frontend/src ./src
-COPY frontend/public ./public
-COPY frontend/*.html ./
-COPY frontend/vite.config.js ./
-COPY frontend/tailwind.config.js ./
-COPY frontend/postcss.config.js ./
-COPY frontend/eslint.config.js ./
+COPY src ./src
+COPY public ./public
+COPY *.html ./
+COPY vite.config.js ./
+COPY tailwind.config.js ./
+COPY postcss.config.js ./
+COPY eslint.config.js ./
 
 # Build application (with environment variables)
 RUN npm run build
